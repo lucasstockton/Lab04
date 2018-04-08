@@ -106,6 +106,18 @@ namespace MvcMovie.Controllers
         // GET: Movies/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+
+            ViewData["RateList"] = new List<SelectListItem>
+    {  //G,PG,PG-13,R,NC-17,NR
+        new SelectListItem {Text = "G", Value = "G"},
+        new SelectListItem {Text = "PG", Value = "PG"},
+        new SelectListItem {Text = "PG-13", Value = "PG-13"},
+        new SelectListItem {Text = "R", Value = "R"},
+        new SelectListItem {Text = "NC-17", Value = "NC-17"},
+        new SelectListItem {Text = "NR", Value = "NR"}
+    };
+
+
             if (id == null)
             {
                 return NotFound();
@@ -126,6 +138,9 @@ namespace MvcMovie.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("ID,Title,ReleaseDate,Genre,Price,Rating")] Movie movie)
         {
+
+
+
             if (id != movie.ID)
             {
                 return NotFound();
