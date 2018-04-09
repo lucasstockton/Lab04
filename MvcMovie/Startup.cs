@@ -27,6 +27,9 @@ namespace MvcMovie
 
             services.AddDbContext<MvcMovieContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("MvcMovieContext")));
+
+            services.AddDbContext<MvcReviewsContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("MvcReviewsContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
