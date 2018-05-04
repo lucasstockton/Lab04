@@ -9,3 +9,9 @@ C:\Users\Lucas\source\repos\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.0\MvcMovie.A
 C:\Users\Lucas\source\repos\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.0\MvcMovie.AssemblyInfo.cs
 C:\Users\Lucas\source\repos\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.0\MvcMovie.dll
 C:\Users\Lucas\source\repos\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.0\MvcMovie.pdb
+C:\Users\heuma\Source\Repos\WebApp-Lab05\MvcMovie\obj\Debug\netcoreapp2.0\MvcMovie.dll
+C:\Users\heuma\Source\Repos\WebApp-Lab05\MvcMovie\obj\Debug\netcoreapp2.0\MvcMovie.pdb
+C:\Users\heuma\Source\Repos\WebApp-Lab05\MvcMovie\obj\Debug\netcoreapp2.0\MvcMovie.csprojResolveAssemblyReference.cache
+C:\Users\heuma\Source\Repos\WebApp-Lab05\MvcMovie\obj\Debug\netcoreapp2.0\MvcMovie.csproj.CoreCompileInputs.cache
+C:\Users\heuma\Source\Repos\WebApp-Lab05\MvcMovie\obj\Debug\netcoreapp2.0\MvcMovie.AssemblyInfoInputs.cache
+C:\Users\heuma\Source\Repos\WebApp-Lab05\MvcMovie\obj\Debug\netcoreapp2.0\MvcMovie.AssemblyInfo.cs

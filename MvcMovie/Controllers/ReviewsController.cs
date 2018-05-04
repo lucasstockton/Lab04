@@ -11,9 +11,9 @@ namespace MvcMovie.Controllers
 {
     public class ReviewsController : Controller
     {
-        private readonly MvcReviewsContext _context;
+        private readonly MvcMovieContext _context;
 
-        public ReviewsController(MvcReviewsContext context)
+        public ReviewsController(MvcMovieContext context)
         {
             _context = context;
         }
